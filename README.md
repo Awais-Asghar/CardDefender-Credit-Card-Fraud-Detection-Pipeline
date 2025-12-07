@@ -11,6 +11,10 @@ Credit card fraud is a major financial challenge. Millions of transactions occur
 **Goal:**
 Build a machine learning pipeline that identifies fraudulent transactions accurately, even when the dataset is extremely imbalanced.
 
+<img width="1874" height="1012" alt="Image" src="https://github.com/user-attachments/assets/e1c357b5-9fe7-4fc4-b612-3a8d5ffe9162" />
+
+<img width="1872" height="1011" alt="Image" src="https://github.com/user-attachments/assets/70d806a2-659e-4d8d-97ed-2f427fcdc3e0" />
+
 ---
 
 ## **2. Motivation**
@@ -47,6 +51,8 @@ Link: [https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud](https://www.kagg
 
 This dataset contains real credit card transactions made in Europe. It is highly imbalanced, with fraudulent transactions making up only **0.172 percent** of the data.
 
+<img width="1871" height="1006" alt="Image" src="https://github.com/user-attachments/assets/cf882dea-22f6-46f0-b481-051edfbee441" />
+
 ---
 
 ## **4. Challenges**
@@ -59,6 +65,9 @@ This dataset contains real credit card transactions made in Europe. It is highly
 
 3. **High Precision Required**
    False positives inconvenience customers, while false negatives allow fraud to pass undetected.
+
+<img width="1876" height="1016" alt="Image" src="https://github.com/user-attachments/assets/2a9e9b43-1412-445e-8d88-6936ecf132aa" />
+<img width="1874" height="1007" alt="Image" src="https://github.com/user-attachments/assets/669c41af-5ea7-48bf-a5de-bcb5f698c5e8" />
 
 ---
 
@@ -107,47 +116,20 @@ The notebooks generally include:
 
 * Baseline linear model
 * Useful for comparison
-
-You can add more models like:
-
-* XGBoost
-* SVM
-* Decision Trees
-* Neural Networks
-
+  
 ---
 
 ## **8. Evaluation Metrics**
 
-Because of imbalance, accuracy is **not reliable**.
-Better metrics include:
+<img width="1874" height="1008" alt="Image" src="https://github.com/user-attachments/assets/2a819e26-3253-4a12-a3ce-a0ef133d822e" />
 
-* **Precision** (how many predicted frauds are real)
-* **Recall** (how many real frauds were detected)
-* **F1 Score** (balance of precision and recall)
-* **Confusion Matrix**
+<img width="1872" height="1006" alt="Image" src="https://github.com/user-attachments/assets/1420e16b-7d08-4722-8f82-509596173570" />
 
-You can insert your real results here:
+<img width="1875" height="1012" alt="Image" src="https://github.com/user-attachments/assets/b909b4d6-8c3a-423a-a53c-3e3101ae9dfc" />
 
-**Example Structure:**
+<img width="1881" height="1016" alt="Image" src="https://github.com/user-attachments/assets/1d057995-0012-499f-b2db-8702c938bb44" />
 
-### **Model without Balancing**
-
-* Accuracy: …
-* Precision: …
-* Recall: …
-* F1 Score: …
-* Fraud detected: …
-
-### **Model with SMOTE / Undersampling**
-
-* Accuracy: …
-* Precision: …
-* Recall: …
-* F1 Score: …
-* Fraud detected: …
-
-(Mention values from your notebook output.)
+<img width="1875" height="998" alt="Image" src="https://github.com/user-attachments/assets/e7c302ed-08e8-4491-993a-af18d0d1962d" />
 
 ---
 
@@ -161,6 +143,8 @@ A confusion matrix helps analyze:
 * False Positives (legitimate flagged as fraud — customer inconvenience)
 
 Balancing techniques usually reduce **False Negatives**, which is essential for fraud systems.
+
+<img width="1877" height="1020" alt="Image" src="https://github.com/user-attachments/assets/de0dad12-adcd-4f82-9c70-7325e1a3b5a6" />
 
 ---
 
@@ -179,6 +163,8 @@ Balancing techniques usually reduce **False Negatives**, which is essential for 
 * Dataset lacks real-world contextual features such as location, merchant ID, or device type
 * Models may not generalize perfectly to new fraud strategies
 
+<img width="1869" height="1010" alt="Image" src="https://github.com/user-attachments/assets/87492194-79b9-49fa-adc9-7e8dac6d979c" />
+
 ---
 
 ## **12. Future Work**
@@ -188,6 +174,8 @@ Balancing techniques usually reduce **False Negatives**, which is essential for 
 * Implement anomaly detection methods
 * Deploy model in real-time detection pipeline
 * Train transformer models for sequential fraud detection
+
+<img width="1867" height="1016" alt="Image" src="https://github.com/user-attachments/assets/fc1c4a6d-0575-4c27-b3ac-81faf1f860db" />
 
 ---
 
